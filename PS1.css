@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@keyframes progress {
+    0%{
+        width: 0vw;
+    }
+    25%{
+        width: 50vw;
+    }
+    70%{
+        width: 80vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+.bar{
+    height: 5px;
+    /* width: 100vw; */
+    background-color: red;
+    animation: progress 2s infinite 200ms normal ;
+}
+header{
+    background-color: black;
+    height: 10vh;
+}
+main{
+    background-color: blue;
+    height: 89vh;
+}
